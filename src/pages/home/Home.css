@@ -424,12 +424,14 @@
     }
     .hr__lower  {
         flex-direction: column;
-        height: 100%;
+        height: 40%;
     }
     .hr__lower-left {
         width: 100%;
+        height: 74%;
     }
     .hr__lower-right {
         width: 100%;
+        height: 70%;
     }
 }
