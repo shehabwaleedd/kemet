@@ -221,3 +221,14 @@
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
+
+
+@media (max-width: 456px) {
+    .nav__middle {
+        display: none;
+    }
+
+    .nav__logo {
+        width: 100%;
+    }
+}
