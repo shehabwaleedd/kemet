@@ -2,9 +2,10 @@ import React from 'react'
 import './Home.css'
 import kadesh from "../../assets/kadesh-battle.jpeg"
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
-import islamicCairo from '../../assets/yousef-salhamoud-VFhZGWWFF80-unsplash.jpg'
+import islamicCairo from '../../assets/Old Cairo.jpeg'
 import mohammadali from '../../assets/mohammad-ali.jpeg'
 import { TbDots } from "react-icons/tb"
+import whereabouts from '../../assets/oldCairo.jpg'
 
 const Home = () => {
     return (
@@ -26,9 +27,9 @@ const Home = () => {
                         <div className="hr__upper">
                             <div className="hr__upper-container">
                                 <div className="hr__upper-left">
-                                    <span>Culture</span>
+                                    <span>history</span>
                                     <h1>Egyptian influence on Persia in the Pre-Islamic period</h1>
-                                    <p>In the fields of artistic work, architecture and sculpture, the Persians do not seem to have had any lasting impact on Egyptian tradition, during either both Achaemenid occupations of Egypt</p>
+                                    <p>In the fields of artistic work, architecture and sculpture, the Persians do not seem to have had any lasting impact on Egyptian tradition, during either both Achaemenid occupations of Egypt...</p>
                                 </div>
                                 <div className="hr__upper-right">
                                     <img src={islamicCairo} alt="" />
@@ -53,7 +54,17 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="hr__lower-right">
-
+                                <div className="hr__lower-right-container">
+                                    <img src={whereabouts} alt="" />
+                                    <div className="hr-right-title">
+                                        <h1>Explore hidden Cairo</h1>
+                                        <span>whereabouts</span>
+                                    </div>
+                                </div>
+                                <div className="get_started-lower-right">
+                                    <p>Get Started</p>
+                                    <HiOutlineArrowNarrowRight className='arrow-right-lower' />
+                                </div>
                             </div>
                         </div>
                     </div>
