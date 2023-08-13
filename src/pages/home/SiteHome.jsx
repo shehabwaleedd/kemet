@@ -6,7 +6,6 @@ const SiteHome = () => {
     return (
         <main>
             <Home />
-            <Achievments />
         </main>
     )
 }

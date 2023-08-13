@@ -13,7 +13,7 @@
   --webkit-shadow: -4px 6px 31px 0px rgba(93, 110, 96, 0.6);
   --moz-box-shadow: -4px 6px 31px 0px rgba(93, 110, 96, 0.6);
   --nav-overlay-color: #1b1b1b;
-  --accent-color: #c77586;
+  --accent-color: #573935;
   --accent: var(--pink);
   --background-color: #1b1b1b;
   --color-number: #999;
@@ -58,7 +58,7 @@ body,
 button,
 input,
 textarea {
-  font-family: var(--body-font);
+  font-family: "Chillax-Variable";
   font-size: var(--normal-font-size);
 
 }
@@ -154,7 +154,6 @@ img {
   padding: 1rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
-  font-family: "Satoshi-Bold", sans-serif;
   letter-spacing: 0.2rem;
 
 }
