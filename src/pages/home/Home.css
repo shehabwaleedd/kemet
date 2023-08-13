@@ -401,3 +401,35 @@
     cursor: pointer;
     color: var(--accent-color);
 }
+
+@media (max-width: 455px) {
+    .home  {
+        min-height: 270vh;
+    }
+    .home__container {
+        flex-direction: column;
+    }
+    .home__left {
+        width: 100%;
+    }
+    .home__right  {
+        width: 100%;
+    }
+    .hr__upper {
+        flex-direction: column;
+        height: 50%;
+    }
+    .hr__upper-container {
+        flex-direction: column;
+    }
+    .hr__lower  {
+        flex-direction: column;
+        height: 100%;
+    }
+    .hr__lower-left {
+        width: 100%;
+    }
+    .hr__lower-right {
+        width: 100%;
+    }
+}
