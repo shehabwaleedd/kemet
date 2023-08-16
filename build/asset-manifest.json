@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a7a83ba.css",
-    "main.js": "/static/js/main.a6016d4a.js",
+    "main.css": "/static/css/main.4c48ffea.css",
+    "main.js": "/static/js/main.216ffa7f.js",
     "static/js/787.0274e475.chunk.js": "/static/js/787.0274e475.chunk.js",
     "static/media/kadesh-battle.jpeg": "/static/media/kadesh-battle.f627c9b4519f5a7a21a1.jpeg",
     "static/media/Old Cairo.jpeg": "/static/media/Old Cairo.65e5415e698e7b8ccdff.jpeg",
@@ -29,12 +29,12 @@
     "static/media/Chillax-Bold.woff2": "/static/media/Chillax-Bold.74d1529a0c0254642d50.woff2",
     "static/media/Chillax-Extralight.woff2": "/static/media/Chillax-Extralight.278406f9c9c8fe7d844d.woff2",
     "index.html": "/index.html",
-    "main.4a7a83ba.css.map": "/static/css/main.4a7a83ba.css.map",
-    "main.a6016d4a.js.map": "/static/js/main.a6016d4a.js.map",
+    "main.4c48ffea.css.map": "/static/css/main.4c48ffea.css.map",
+    "main.216ffa7f.js.map": "/static/js/main.216ffa7f.js.map",
     "787.0274e475.chunk.js.map": "/static/js/787.0274e475.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a7a83ba.css",
-    "static/js/main.a6016d4a.js"
+    "static/css/main.4c48ffea.css",
+    "static/js/main.216ffa7f.js"
   ]
 }
