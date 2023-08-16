@@ -41,15 +41,21 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
                     </Link>
                     <div className="nav__middle">
                         <ul className="nav__list">
-                            <motion.li className="nav__item">
-                                <Link className="nav__link" to="/collection">Collection</Link>
-                            </motion.li>
-                            <motion.li className="nav__item">
-                                <Link className="nav__link" to="/mission">Our Mission</Link>
-                            </motion.li>
-                            <motion.li className="nav__item">
-                                <Link className="nav__link" to="/about">About Us</Link>
-                            </motion.li>
+                            <Link className="nav__link" to="/collection">
+                                <motion.li className="nav__item">
+                                    Collection
+                                </motion.li>
+                            </Link>
+                            <Link className="nav__link" to="/mission">
+                                <motion.li className="nav__item">
+                                    Our Mission
+                                </motion.li>
+                            </Link>
+                            <Link className="nav__link" to="/about">
+                                <motion.li className="nav__item">
+                                    About Us
+                                </motion.li>
+                            </Link>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +67,7 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
                     </ul>
                 </Link>
             </div>
-        </motion.nav>
+        </motion.nav >
     )
 }
 

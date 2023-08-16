@@ -27,6 +27,7 @@
   border: 5px solid var(--title-color);
   z-index: 9999999999;
   border-radius: 2rem;
+  margin-top: 0.2rem;
 }
 
 * {
