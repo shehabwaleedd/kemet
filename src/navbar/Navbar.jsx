@@ -61,9 +61,11 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
                 </div>
                 <Link to="/menu" className="nav__right">
                     <ul className="nav__list">
-                        <motion.li className="nav__item">
-                            <Link className="nav__link" to="/menu">Menu</Link>
-                        </motion.li>
+                        <Link className="nav__link" to="/menu">
+                            <motion.li className="nav__item">
+                                Menu
+                            </motion.li>
+                        </Link>
                     </ul>
                 </Link>
             </div>
