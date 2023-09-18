@@ -14,17 +14,17 @@ const Navbar = ({ setNavOpen, navOpen }) => {
                         <ul className="nav__list">
                             <Link className="nav__link" to="/collection">
                                 <motion.li className="nav__item">
-                                    Collection
+                                    Categories
                                 </motion.li>
                             </Link>
                             <Link className="nav__link" to="/mission">
                                 <motion.li className="nav__item">
-                                    Our Mission
+                                    History
                                 </motion.li>
                             </Link>
                             <Link className="nav__link" to="/about">
                                 <motion.li className="nav__item">
-                                    About Us
+                                    Politics
                                 </motion.li>
                             </Link>
                         </ul>
