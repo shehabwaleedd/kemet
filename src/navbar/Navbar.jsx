@@ -1,10 +1,8 @@
 import React from 'react'
-import { useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import './Navbar.css'
 const Navbar = ({ setNavOpen, navOpen }) => {
-    const location = useLocation();
     return (
         <motion.nav className={`nav ${navOpen ? 'open' : ''}`} >
             <div className="nav__container">
@@ -32,15 +30,15 @@ const Navbar = ({ setNavOpen, navOpen }) => {
                         </ul>
                     </div>
                 </div>
-                <Link to="/menu" className="nav__right">
+                <div className="nav__right">
                     <ul className="nav__list">
-                        <Link className="nav__link" to="/menu">
+                        <div className="nav__link">
                             <motion.li className="nav__item">
                                 Menu
                             </motion.li>
-                        </Link>
+                        </div>
                     </ul>
-                </Link>
+                </div>
             </div>
         </motion.nav >
     )

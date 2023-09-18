@@ -1,10 +1,11 @@
 import React from 'react'
-import './Home.css'
+import './Home.scss'
 import kadesh from "../../assets/kadesh-battle.jpeg"
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import islamicCairo from '../../assets/Old Cairo.jpeg'
 import mohammadali from '../../assets/mohammad-ali.jpeg'
 import { TbDots } from "react-icons/tb"
+import rev1911 from "../../assets/imgs/Rev_1911.jpg"
 import whereabouts from '../../assets/oldCairo.jpg'
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
                         <h1>Battle of Kadesh</h1>
                         <img src={kadesh} alt="" />
                         <div className="hl__container-lower">
-                            <p>Get Started</p>
+                            <p>Continue Reading</p>
                             <HiOutlineArrowNarrowRight className='arrow' />
                         </div>
                     </div>
@@ -55,15 +56,20 @@ const Home = () => {
                             </div>
                             <div className="hr__lower-right">
                                 <div className="hr__lower-right-container">
-                                    <img src={whereabouts} alt="" />
+                                    <img src={rev1911} alt="" />
                                     <div className="hr-right-title">
-                                        <h1>Explore hidden Cairo</h1>
-                                        <span>whereabouts</span>
+                                        <div className="hr-right-title_upper">
+                                            <h1>Egypt's 1911 Revolution</h1>
+                                            <span>Politics</span>
+                                        </div>
+                                        <div className="hr-right-title_lower">
+                                            <p>On 9 March 1911, the Egyptian army, led by Ahmed Fakhry, mutinied against the Khedive Abbas Hilmi II, and demanded the dismissal of the Wafd ministers and the return of the 1882 constitution.</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="get_started-lower-right">
-                                    <p>Get Started</p>
-                                    <HiOutlineArrowNarrowRight className='arrow-right-lower' />
+                                    <div className="get_started-lower-right">
+                                        <p>Continue Reading</p>
+                                        <HiOutlineArrowNarrowRight className='arrow-right-lower' />
+                                    </div>
                                 </div>
                             </div>
                         </div>
