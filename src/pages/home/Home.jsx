@@ -4,8 +4,8 @@ import kadesh from "../../assets/kadesh-battle.jpeg"
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
 import islamicCairo from '../../assets/Old Cairo.jpeg'
 import mohammadali from '../../assets/mohammad-ali.jpeg'
-import { TbDots } from "react-icons/tb"
 import rev1911 from "../../assets/imgs/Rev_1911.jpg"
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -13,9 +13,9 @@ const Home = () => {
             <div className="home__container">
                 <div className="home__left">
                     <div className="hl__container">
-                        <span>War History</span>
+                        <span>History</span>
                         <h1>Battle of Kadesh</h1>
-                        <img src={kadesh} alt="" />
+                        <img src={mohammadali} alt="" />
                         <div className="hl__container-lower">
                             <p>Continue Reading</p>
                             <HiOutlineArrowNarrowRight className='arrow' />
@@ -44,14 +44,17 @@ const Home = () => {
                             <div className="hr__lower-left">
                                 <img src={mohammadali} alt="" />
                                 <div className="hr__lower-title">
-                                    <h1>Portrait</h1>
-                                    <TbDots className='dots' />
+                                    <div className="hr__lower-title-upper">
+                                        <h1>Mohammad Ali Basha</h1>
+                                        <h3>Portraits</h3>
+                                    </div>
+                                    <span> portrait of Muhammad Ali Basha (1769–1849). Founder of Modern Egypt and the Khedivate of Egypt and Sudan.</span>
                                 </div>
-                                <span> portrait of Muhammad Ali (1769–1849). He was a commander in the Ottoman army and had seized power after a civil war.</span>
-                                <div className="get_started-lower">
-                                    <p>Get Started</p>
+                                <Link to="/portraits" className="get_started-lower">
+                                    <p>Explore More
                                     <HiOutlineArrowNarrowRight className='arrow-right' />
-                                </div>
+                                    </p>
+                                </Link>
                             </div>
                             <div className="hr__lower-right">
                                 <div className="hr__lower-right-container">
@@ -65,10 +68,10 @@ const Home = () => {
                                             <p>On 9 March 1911, the Egyptian army, led by Ahmed Fakhry, mutinied against the Khedive Abbas Hilmi II, and demanded the dismissal of the Wafd ministers and the return of the 1882 constitution.</p>
                                         </div>
                                     </div>
-                                    <div className="get_started-lower-right">
+                                    <Link to="/politics" className="get_started-lower-right">
                                         <p>Continue Reading</p>
                                         <HiOutlineArrowNarrowRight className='arrow-right-lower' />
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
