@@ -6,7 +6,6 @@ import islamicCairo from '../../assets/Old Cairo.jpeg'
 import mohammadali from '../../assets/mohammad-ali.jpeg'
 import { TbDots } from "react-icons/tb"
 import rev1911 from "../../assets/imgs/Rev_1911.jpg"
-import whereabouts from '../../assets/oldCairo.jpg'
 
 const Home = () => {
     return (

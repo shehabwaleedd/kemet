@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import './Navbar.css'
+import './Navbar.scss'
 const Navbar = ({ setNavOpen, navOpen }) => {
     return (
         <motion.nav className={`nav ${navOpen ? 'open' : ''}`} >
