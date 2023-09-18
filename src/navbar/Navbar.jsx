@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import './Navbar.scss'
 const Navbar = ({ setNavOpen, navOpen }) => {
@@ -14,7 +14,7 @@ const Navbar = ({ setNavOpen, navOpen }) => {
                         <ul className="nav__list">
                             <Link className="nav__link" to="/collection">
                                 <motion.li className="nav__item">
-                                    Categories
+                                    Portraits
                                 </motion.li>
                             </Link>
                             <Link className="nav__link" to="/mission">
@@ -31,13 +31,9 @@ const Navbar = ({ setNavOpen, navOpen }) => {
                     </div>
                 </div>
                 <div className="nav__right">
-                    <ul className="nav__list">
-                        <div className="nav__link">
-                            <motion.li className="nav__item">
-                                Menu
-                            </motion.li>
-                        </div>
-                    </ul>
+                    <h2 className="nav__item">
+                        Menu
+                    </h2>
                 </div>
             </div>
         </motion.nav >
