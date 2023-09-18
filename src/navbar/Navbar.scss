@@ -9,7 +9,7 @@
     background-color: var(--background-color);
     transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
     border-radius: 1.9rem;
-
+    user-select: none;
     .nav__container {
         display: flex;
         justify-content: space-between;
@@ -89,7 +89,14 @@
                     border-radius: 1.9rem;
                     padding: 0.5rem 1rem;
                     height: 100%;
+                    width: 100%;
+                    &:hover {
+                        background-color: var(--title-color);
+                        color: var(--nav-overlay-color);
+                        border: 2px solid #585944;
+                    }
                 }
+
             }
         }
 
@@ -100,6 +107,34 @@
             gap: 0.2rem;
             position: relative;
             width: 100%;
+            .extendedMenu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.2rem;
+                position: relative;
+                right: 0rem;
+                li {
+                    list-style: none;
+                    font-family: 'Chillax-Semibold';
+                    font-size: 1.5rem;
+                    color: var(--title-color);
+                    cursor: pointer;
+                    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    border: 2px solid var(--title-color);
+                    border-radius: 1.9rem;
+                    padding: 0.5rem 1rem;
+                    height: 100%;
+                    width: 100%;
+                    &:hover {
+                        background-color: var(--title-color);
+                        color: var(--nav-overlay-color);
+                        border: 2px solid #585944;
+                    }
+                }
+            }
             h2 {
                 list-style: none;
                 font-family: 'Chillax-Semibold';
@@ -118,7 +153,7 @@
                 &:hover {
                     background-color: var(--title-color);
                     color: var(--nav-overlay-color);
-                    border: 1px solid #585944;
+                    border: 2px solid #585944;
                 }
             }
         }
