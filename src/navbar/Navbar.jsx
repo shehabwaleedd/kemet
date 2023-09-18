@@ -3,35 +3,8 @@ import { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import './Navbar.css'
-const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMobile }) => {
+const Navbar = ({ setNavOpen, navOpen }) => {
     const location = useLocation();
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 468);
-        };
-
-        handleResize();
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, [setIsMobile]);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsTablet(window.innerWidth <= 935);
-        };
-
-        handleResize();
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, [setIsTablet]);
     return (
         <motion.nav className={`nav ${navOpen ? 'open' : ''}`} >
             <div className="nav__container">

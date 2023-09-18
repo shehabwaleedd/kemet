@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Suspense } from 'react';
-import Loading from './components/loading/Loading.tsx';
-
+import Loading from './utils/loading/Loading.tsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,10 +14,11 @@ root.render(
   <React.StrictMode>
     <Router>
       <Suspense fallback={<Loading height={100} />}>
-        <App />
+        <HelmetProvider>
+          <App />
+        </HelmetProvider>
       </Suspense>
     </Router>
   </React.StrictMode >
 );
-
 reportWebVitals();
