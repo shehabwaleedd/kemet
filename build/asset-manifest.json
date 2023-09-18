@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c48ffea.css",
-    "main.js": "/static/js/main.216ffa7f.js",
+    "main.css": "/static/css/main.830e2f33.css",
+    "main.js": "/static/js/main.c494065e.js",
     "static/js/787.0274e475.chunk.js": "/static/js/787.0274e475.chunk.js",
+    "static/media/Rev_1911.jpg": "/static/media/Rev_1911.ad2e0906925473527b17.jpg",
     "static/media/kadesh-battle.jpeg": "/static/media/kadesh-battle.f627c9b4519f5a7a21a1.jpeg",
     "static/media/Old Cairo.jpeg": "/static/media/Old Cairo.65e5415e698e7b8ccdff.jpeg",
     "static/media/mohammad-ali.jpeg": "/static/media/mohammad-ali.c390a3190f0db2a455ff.jpeg",
     "static/media/Chillax-Variable.ttf": "/static/media/Chillax-Variable.35be36f56031260cf435.ttf",
-    "static/media/oldCairo.jpg": "/static/media/oldCairo.eae65648d7b8dafcf6d9.jpg",
     "static/media/Chillax-Light.ttf": "/static/media/Chillax-Light.f7f01b60a17a04b97f7a.ttf",
     "static/media/Chillax-Medium.ttf": "/static/media/Chillax-Medium.bd1fdefdb415380f3f52.ttf",
     "static/media/Chillax-Regular.ttf": "/static/media/Chillax-Regular.50d2215815ebd5becebc.ttf",
@@ -29,12 +29,12 @@
     "static/media/Chillax-Bold.woff2": "/static/media/Chillax-Bold.74d1529a0c0254642d50.woff2",
     "static/media/Chillax-Extralight.woff2": "/static/media/Chillax-Extralight.278406f9c9c8fe7d844d.woff2",
     "index.html": "/index.html",
-    "main.4c48ffea.css.map": "/static/css/main.4c48ffea.css.map",
-    "main.216ffa7f.js.map": "/static/js/main.216ffa7f.js.map",
+    "main.830e2f33.css.map": "/static/css/main.830e2f33.css.map",
+    "main.c494065e.js.map": "/static/js/main.c494065e.js.map",
     "787.0274e475.chunk.js.map": "/static/js/787.0274e475.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c48ffea.css",
-    "static/js/main.216ffa7f.js"
+    "static/css/main.830e2f33.css",
+    "static/js/main.c494065e.js"
   ]
 }
