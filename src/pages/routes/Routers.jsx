@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import NotFound from '../notFound/NotFound';
 import Loading from '../../utils/loading/Loading.tsx';
 import SiteHome from '../home/SiteHome';
+const About = lazy(() => import('../about/About'));
 
 const Routers = ({ navOpen, setNavOpen }) => {
     const location = useLocation();
@@ -11,6 +12,10 @@ const Routers = ({ navOpen, setNavOpen }) => {
         {
             path: '/',
             element: <SiteHome key={location.pathname} navOpen={navOpen} />,
+        },
+        {
+            path: '/about',
+            element: <About key={location.pathname} />,
         },
         { path: '*', element: <NotFound /> },
     ];

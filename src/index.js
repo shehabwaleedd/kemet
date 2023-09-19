@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Suspense } from 'react';
 import Loading from './utils/loading/Loading.tsx';
 import { HelmetProvider } from 'react-helmet-async';
+import { UserContextProvider } from './components/authContext/AuthContext';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,9 @@ root.render(
     <Router>
       <Suspense fallback={<Loading height={100} />}>
         <HelmetProvider>
-          <App />
+          <UserContextProvider>
+            <App />
+          </UserContextProvider>
         </HelmetProvider>
       </Suspense>
     </Router>
